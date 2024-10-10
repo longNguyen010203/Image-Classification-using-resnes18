@@ -46,7 +46,7 @@ model = nn.Sequential(
 
 
 
-model.load_state_dict(torch.load('resnet18_weights.pth'))
+model.load_state_dict(torch.load('resnet18_weights.pth', map_location=torch.device('cpu')))
 model.eval()
 
 
