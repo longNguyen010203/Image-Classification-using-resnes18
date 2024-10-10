@@ -1,3 +1,6 @@
+pillow
+zlib-ng
+zlib-state
 streamlit==1.38.0
 Pillow==9.0.1
 torch==2.4.1
